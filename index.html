@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina|Courgette|Hind+Guntur|Merriweather|Metamorphous|Special+Elite|Oxygen|Cabin+Sketch" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -40,7 +40,7 @@
 
           <label for="state">State</label><br>
             <select id="state" name="user_state">
-              <option value="Choose_State">Choose State</option>
+              <option value="Choose_State" selected hidden disabled>Choose State</option>
               <option value="Arizona">Arizona</option>
               <option value="California">California</option>
               <option value="Georgia">Georgia</option>
@@ -65,7 +65,7 @@
           <label>Newsletter format</label><br>
           <input type="radio" id="html_format" name="newsletter_format"><label for="html_format">HTML</label><br>
           <input type="radio" id="plain_text_format" name="newsletter_format"><label for="plain_text_format">Plain text</label><br>
-          <label>Other topics you'd like to hear about</label><br>
+          <label for="comment">Other topics you'd like to hear about</label><br>
           <textarea id="comment" name="user_comment"></textarea>
           <button type="submit">Sign Up</button>
                     
